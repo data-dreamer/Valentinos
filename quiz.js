@@ -60,10 +60,12 @@ function buildQuiz() {
         
         q.options.forEach(option => {
             questionElem.innerHTML += `
-                <label>
+               
+            <label >
                     <input type="radio" name="question${index}" value="${option}">
                     ${option}
-                </label><br>
+                </label><br><br>
+                
             `;
         });
         
