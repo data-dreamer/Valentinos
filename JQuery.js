@@ -5,7 +5,7 @@ $(document).ready(function () {
         }, 'slow');
     }).mouseleave(function () {
         $('.card').stop().animate({
-            top: 0
+            top: 10
         }, 'slow');
     });
 });

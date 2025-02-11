@@ -1,14 +1,19 @@
 body {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    background-color: #fae1dd;
-    margin: 0;
-    padding: 0;
+    background-image: url("download.jpg");
+    margin-top: 3cm;
+    margin-bottom: 2cm;
+    margin-right: 8cm;
+    padding: 3cm;
   }
-  
 
+  
+.repositioning{
+  position: sticky;
+  transform: translate(530px,110px);
+  z-index: 9999;
+}
   .quiz-container {
+    position:relative;
     
     width: 700px;
     box-shadow: rgba(136, 165, 191, 0.48) 6px 2px 16px 0px, rgba(255, 255, 255, 0.8) -6px -2px 16px 0px;
@@ -26,6 +31,7 @@ body {
 }
 
 .question-box {
+  
   height: 50cqh;
   width: 600px; ;
   overflow-y: auto;
@@ -81,9 +87,6 @@ label:hover {
 }
 
 
-
-
-/* CSS */
 .button-24 {
   background: #ff6b81;
   border: 1px solid #ff6b81;
@@ -94,7 +97,7 @@ label:hover {
   cursor: pointer;
   display: inline-block;
   font-family: nunito,roboto,proxima-nova,"proxima nova",sans-serif;
-  font-size: 30px;
+  font-size: 40px;
   font-weight: 600;
   line-height: 24px;
   min-height: 60px;
