@@ -1,7 +1,7 @@
 $(document).ready(function () {
     $('.container').mouseenter(function () {
         $('.card').stop().animate({
-            top: '-90px'
+            top: '-190px'
         }, 'slow');
     }).mouseleave(function () {
         $('.card').stop().animate({
