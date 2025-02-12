@@ -32,7 +32,7 @@ const quizData = [
     {
         question: "7. Cosa si regalano i pinguini per San Valentino  ",
         options: ["un sassolino", "un fiorellino", "del ghiaccio"],
-        answer: "31 dicembre 2023"
+        answer: "un sassolino"
     },
     {
         question: "8. Quanto ti amo? ",
